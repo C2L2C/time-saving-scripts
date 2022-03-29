@@ -2,8 +2,8 @@ TEMP_FILE=./temp_file
 args=("$@")
 
 if [[ $# -eq 0 ]] ; then
-    echo 'error: No arguments provided.\n
-Usage: ./update_variables.sh <SOURCE_PROJECT_ID> <DESTINATION_PROJECT_ID>'
+   echo 'error: No arguments provided.\n
+   Usage: ./update_variables.sh <SOURCE_PROJECT_ID> <DESTINATION_PROJECT_ID>'
     exit 1
 fi
 
